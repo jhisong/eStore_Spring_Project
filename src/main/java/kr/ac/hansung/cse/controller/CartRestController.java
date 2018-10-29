@@ -55,10 +55,10 @@ public class CartRestController {
 		System.out.println("call getCartById");System.out.println("call getCartById");
 		System.out.println("call getCartById");System.out.println("call getCartById");
 		
-		HttpHeaders headers = new HttpHeaders();
-		headers.setCacheControl("max-age=10");
+		//HttpHeaders headers = new HttpHeaders();
+		//headers.setCacheControl("max-age=10");
 		
-		return new ResponseEntity<Cart>(cart, headers, HttpStatus.OK);
+		return new ResponseEntity<Cart>(cart, HttpStatus.OK);
 	}
 
 	@RequestMapping(value = "/{cartId}", method = RequestMethod.DELETE)

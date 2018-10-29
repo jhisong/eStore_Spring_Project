@@ -54,7 +54,7 @@
 				<label class="col-md-3 control-lable" for="file">Upload a
 					Picture</label>
 				<div class="col-md-7">
-					<sf:input type="file" path="imageName" id="file"
+					<sf:input type="file" path="file" id="file"
 						class="form-control input-sm" />
 					<div class="has-error">
 						<sf:errors path="file" class="help-inline" />
